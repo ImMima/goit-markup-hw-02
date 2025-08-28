@@ -17,11 +17,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
 .accent {
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .header-link {
@@ -36,24 +36,28 @@ body {
 .header-link:focus,
 .header-address:hover,
 .header-address:focus {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+address {
+  font-style: normal;
 }
 
 .header-address {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
+.hero-sect {
+  background-color: #2e2f42;
+}
 .hero-title {
   color: #ffffff;
-  background-color: #2e2f42;
   font-weight: 700;
   font-size: 56px;
   letter-spacing: 0.02em;
-  line-height: 1;
+  line-height: 1.07;
   text-align: center;
 }
 
@@ -65,14 +69,26 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   text-align: center;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 .hero-list {
+  color: #2e2f42;
   text-align: left;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 .hero-list-description {
   text-align: left;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .hero-header {
@@ -82,6 +98,7 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .hero-our-team {
@@ -90,7 +107,9 @@ body {
 .hero-team {
   line-height: 1.333;
 }
-
+.hero-team-card {
+  background-color: #fff;
+}
 .hero-names {
   font-weight: 500;
   font-size: 20px;
@@ -125,5 +144,8 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #4d5ae5;
+}
+.accent-footer {
   color: #f4f4fd;
 }
